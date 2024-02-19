@@ -1,0 +1,31 @@
+/*
+                  
+                  
+*/
+#include <bits/stdc++.h>
+using namespace std;
+         
+         
+int main()
+{
+
+     vector<int> v;
+     cout<<v.max_size()<<endl;
+     cout<<v.capacity()<<endl;  //value zero so, capacity zero
+     v.push_back(10);  //by push_back() function add a value beacuse vector is a dynamic array auto size increace by vactor
+    cout<<v.capacity()<<endl; //after add a one value now capacity is 1
+     v.push_back(20);  //by push_back() function add a value beacuse vector is a dynamic array auto size increace by vactor
+    cout<<v.capacity()<<endl; //after add a one value now capacity is 2
+     v.push_back(30);  //by push_back() function add a value beacuse vector is a dynamic array auto size increace by vactor
+    cout<<v.capacity()<<endl; //after add a one value now capacity is 4
+    v.push_back(40);
+    cout<<v.capacity()<<endl;
+    v.push_back(50);
+    cout<<v.capacity()<<endl;  //moral of the work that is if capacity is over then he put double of their capacity
+    for (int i = 0; i < v.size(); i++)
+    {
+        cout<<v[i]<<" ";
+    }
+    
+    return 0;
+}

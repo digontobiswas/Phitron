@@ -1,0 +1,4 @@
+3
+rahim 10 90
+sifat 11 99
+akib 12 90

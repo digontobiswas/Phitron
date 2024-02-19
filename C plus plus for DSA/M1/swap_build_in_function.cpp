@@ -1,0 +1,16 @@
+/*
+5 10
+*/
+#include <iostream>
+#include <utility>
+using namespace std;
+int main()
+{
+    int a, b;
+    cin>>a>>b;
+    cout<<a<<" "<<b<<endl;
+    swap(a,b);
+    cout<<a<<" "<<b<<endl;
+    
+
+}

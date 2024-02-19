@@ -1,0 +1,17 @@
+//return type + parameter
+#include <stdio.h>
+
+int sum()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    int s=a+b;
+    return s;
+}
+
+int main(){
+
+    int addition =sum();
+    printf("%d", addition);
+    return 0;
+}
